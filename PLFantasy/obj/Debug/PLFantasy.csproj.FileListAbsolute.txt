@@ -1,0 +1,9 @@
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\obj\Debug\PLFantasy.csprojResolveAssemblyReference.cache
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\obj\Debug\PLFantasy.csproj.CoreCompileInputs.cache
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\bin\Debug\PLFantasy.exe.config
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\bin\Debug\PLFantasy.exe
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\bin\Debug\PLFantasy.pdb
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\bin\Debug\Newtonsoft.Json.dll
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\bin\Debug\Newtonsoft.Json.xml
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\obj\Debug\PLFantasy.exe
+c:\users\klas\source\repos\Fantasyparser\PLFantasy\obj\Debug\PLFantasy.pdb

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="leagueteams.js"></script>
+    <script type="text/javascript" src="players.js"></script>
+    <script type="text/javascript" src="teams.js"></script>
+    <script type="text/javascript" src="playerweekly.js"></script>
+    <script type="text/javascript" src="teamweekly.js"></script>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="Norrtan.js"></script>
+
+
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>Pick a week, any week !</p>
+    <div id="settings">
+        <select id="gameWeek" onchange="updateToWeek()">
+            <option value="1">GW1</option>
+            <option value="2">GW2</option>
+            <option value="3">GW3</option>
+            <option value="4">GW4</option>
+            <option value="5">GW5</option>
+            <option value="6">GW6</option>
+            <option value="7" selected>GW7</option>
+        </select>
+    </div>
+    <div id="summary"></div>
+    <p>Sort teams</p>
+    <div id="teamsettings">
+        <select id="teamsort" onchange="updateToWeek()">
+            <option value="0">Points</option>
+            <option value="1">BenchPoints</option>
+            <option value="2">Points/AvgPoints</option>
+            <option value="3">Points/BenchPoint</option>
+            <option value="4">Uniqueness</option>
+            <option value="5">#Unique players</option>
+        </select>
+        <div id="teamstats"></div>
+    </div>
+    <p>Sort players</p>
+    <select id="playersort" onchange="updateToWeek()">
+        <option value="1">Picked</option>
+        <option value="2" selected>Last GW points</option>
+        <option value="3">Total Points</option>
+    </select>
+    <div id="playerstats"></div>
+    <p id="output">
+
+    </p>
+</body>
+</html>
